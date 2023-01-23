@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Medium | Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+   <!-- NAV - START -->
+    <div class="bg-nav py-1 fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <strong>
+                Medium
+              </strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Our Story</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Membership</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Write</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sign In</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-dark text-light rounded-pill ms-3" href="#">Get Started</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  <!-- NAV - END -->
+    
+  <!-- HEADER - START -->
+    <div class="bg-nav py-5 mt-5">
+      <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h1 class="display-1">
+                  Stay curious.
+                </h1>
+                <p class="lead">
+                  Discover stories, thinking, and expertise <br> from writers on any topic.<br><a href="#" class="text-dark"">Learn more.</a>
+                </p>
+                <a href="#" class="btn btn-dark text-light rounded-pill">Start Reading</a>
+            </div>
+            <div class="col-6">
+              <img src="https://picsum.photos/id/3/650/350" alt="" class="rounded-pill float-end">
+            </div>
+        </div>
+      </div>
+    </div>
+  <!-- HEADER - END -->
+
+  <!-- ARTICLE - START -->
+    <div class="container">
+      <div class="row b-bottom">
+        <div class="col-12 mb-2">
+          <svg width="28" height="29" viewBox="0 0 28 29" fill="none" class="ih y float-start mt-5">
+          <path fill="#fff" d="M0 .8h28v28H0z"></path>
+          <g opacity="0.8" clip-path="url(#trending_svg__clip0)">
+          <path fill="#fff" d="M4 4.8h20v20H4z"></path>
+          <circle cx="14" cy="14.79" r="9.5" stroke="#000"></circle>
+          <path d="M5.46 18.36l4.47-4.48M9.97 13.87l3.67 3.66M13.67 17.53l5.1-5.09M16.62 11.6h3M19.62 11.6v3" stroke="#000" stroke-linecap="round"></path>
+          </g><defs><clipPath id="trending_svg__clip0"><path fill="#fff" transform="translate(4 4.8)" d="M0 0h20v20H0z"></path></clipPath></defs></svg>
+          <path fill="#fff" d="M0 .8h28v28H0z"></path>
+          <h5 class="mt-5">
+            <small>
+              <strong>Trending on Medium</strong>
+            </small>
+          </h5>
+        </div>
+        <article class="col-sm-4 mb-2">
+          <div class="row">
+            <div class="col-1">
+              <h5 class="text-black-50">
+                <strong>01</strong>
+              </h5>
+            </div>
+            <div class="col-11">
+              <img  class="rounded-circle" src="https://picsum.photos/id/11/25/25" alt="">
+              <span class="small ms-2">Tom Cooper</span>
+              <h6 class="mt-3">
+                <strong>Ukraine War, 17 January 2023: Klishchivka</strong>
+              </h6>
+              <ul class="list-inline small">
+                <li class="list-inline-item">Jan 17 ·</li>
+                <li class="list-inline-item"> 5 min read</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-4 mb-2">
+          <div class="row">
+            <div class="col-1">
+              <h5 class="text-black-50">
+                <strong>02</strong>
+              </h5>
+            </div>
+            <div class="col-11">
+              <img  class="rounded-circle" src="https://picsum.photos/id/12/25/25" alt="">
+              <span class="small ms-2">Tomer Gabay 
+                <small class="text-muted">in</small> 
+                Towards Data Science</span>
+              <h6 class="mt-3">
+                <strong>5 Python Tricks That Distinguish Senior Developers From Juniors</strong>
+              </h6>
+              <ul class="list-inline small">
+                <li class="list-inline-item">Jan 16 ·</li>
+                <li class="list-inline-item"> 6 min read</li>
+                <li class="list-inline-item">
+                  <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                  <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                  </path>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-4 mb-2">
+          <div class="row">
+            <div class="col-1">
+              <h5 class="text-black-50">
+                <strong>03</strong>
+              </h5>
+            </div>
+            <div class="col-11">
+              <img  class="rounded-circle" src="https://picsum.photos/id/15/25/25" alt="">
+              <span class="small ms-2">Tony Stubblebine 
+                <small class="text-muted">in</small> 3 Min Read</span>
+              <h6 class="mt-3">
+                <strong>Medium embraces Mastodon</strong>
+              </h6>
+              <ul class="list-inline small">
+                <li class="list-inline-item">Jan 12 ·</li>
+                <li class="list-inline-item"> 3 min read</li>
+                <li class="list-inline-item">
+                  <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                  <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                  </path>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-4 mb-2">
+          <div class="row">
+            <div class="col-1">
+              <h5 class="text-black-50">
+                <strong>04</strong>
+              </h5>
+            </div>
+            <div class="col-11">
+              <img  class="rounded-circle" src="https://picsum.photos/id/17/25/25" alt="">
+              <span class="small ms-2">Kat Tjoelsen 
+                <small class="text-muted">in</small> Better Humans</span>
+              <h6 class="mt-3">
+                <strong>13 Body Language Tips for Young Professionals to Be Influential</strong>
+              </h6>
+              <ul class="list-inline small">
+                <li class="list-inline-item">Jan 11 ·</li>
+                <li class="list-inline-item"> 4 min read</li>
+                <li class="list-inline-item">
+                  <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                  <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                  </path>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-4 mb-2">
+        <div class="row">
+            <div class="col-1">
+              <h5 class="text-black-50">
+                <strong>05</strong>
+              </h5>
+            </div>
+            <div class="col-11">
+              <img  class="rounded-circle" src="https://picsum.photos/id/19/25/25" alt="">
+              <span class="small ms-2">Will Lockett</span>
+              <h6 class="mt-3">
+                <strong>Tesla Is In Immense Trouble and Musk Knows It</strong>
+              </h6>
+              <ul class="list-inline small">
+                <li class="list-inline-item">Jan 9 ·</li>
+                <li class="list-inline-item"> 4 min read</li>
+                <li class="list-inline-item">
+                  <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                  <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                  </path>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+        </div>
+        </article>
+        <article class="col-sm-4 mb-2">
+        <div class="row">
+          <div class="col-1">
+            <h5 class="text-black-50">
+              <strong>06</strong>
+            </h5>
+          </div>
+          <div class="col-11">
+            <img  class="rounded-circle" src="https://picsum.photos/id/21/25/25" alt="">
+            <span class="small ms-2">Eilidh Southren 
+              <small class="text-muted">in</small> Flutter</span>
+            <h6 class="mt-3">
+              <strong>Material 3 for Flutter</strong>
+            </h6>
+            <ul class="list-inline small">
+              <li class="list-inline-item">Jan 18 ·</li>
+              <li class="list-inline-item"> 4 min read</li>
+            </ul>
+          </div>
+        </div>
+        </article>
+    </div> 
+  <!-- ARTICLE - END --> 
+       
+  <!-- SECTION - START -->
+      <div class="row mt-5">
+        <seciton class="col-sm-8">
+          <article class="row mb-3">
+            <div class="col-8">
+              <img  class="rounded-circle" src="https://picsum.photos/id/25/25/25" alt="">
+              <span class="small ms-2">Mate Marschalko</span>
+              <h5 class="mt-3">
+                <strong>ChatGPT in an iOS Shortcut — Worlds Smartest HomeKit Voice Assistant</strong>
+              </h5>
+              <p>
+                Ever since I tried ChatGPT and GPT-3, everything else feels painfully dumb...
+              </p>
+              <ul class="list-inline small">
+                <li class="list-inline-item">Jan 18 ·</li>
+                <li class="list-inline-item"> 8 min read</li>
+                <li class="list-inline-item badge bg-body-secondary text-wrap text-secondary">Smart Home</li>
+                <li class="list-inline-item">
+                  <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                  <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                  </path>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <img src="https://picsum.photos/id/78/400/250" alt="" class="w-100">
+            </div>
+          </article>
+          <article class="row mb-3">
+            <div class="col-8">
+              <img  class="rounded-circle" src="https://picsum.photos/id/26/25/25" alt="">
+              <span class="small ms-2">Leonardo De La Rocha</span>
+              <h5 class="mt-3">
+                <strong>Inclusive Design for the 2023 Lunar New Year</strong>
+              </h5>
+              <p>
+                Hopping and pouncing into the new year with two furry zodiacs
+              </p>
+              <ul class="list-inline small">
+                <li class="list-inline-item">Jan 10 ·</li>
+                <li class="list-inline-item"> 7 min read</li>
+                <li class="list-inline-item badge bg-body-secondary text-wrap text-secondary">Lunar New Year</li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <img src="https://picsum.photos/id/79/400/250" alt="" class="w-100">
+            </div>
+          </article>
+          <article class="row mb-3">
+            <div class="col-8">
+              <img  class="rounded-circle" src="https://picsum.photos/id/52/25/25" alt="">
+              <span class="small ms-2">Clive Thompson</span>
+              <h5 class="mt-3">
+                <strong>The Power of Indulging Your Weird, Offbeat Obsessions</strong>
+              </h5>
+              <p>
+                Being curious and obsessed can lead to interesting places
+              </p>
+              <ul class="list-inline small">
+                <li class="list-inline-item">Jan 7 ·</li>
+                <li class="list-inline-item"> 6 min read</li>
+                <li class="list-inline-item badge bg-body-secondary text-wrap text-secondary">History</li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <img src="https://picsum.photos/id/87/400/250" alt="" class="w-100">
+            </div>
+          </article>
+          <article class="row mb-3">
+            <div class="col-8">
+              <img  class="rounded-circle" src="https://picsum.photos/id/56/25/25" alt="">
+              <span class="small ms-2">Chaz Hutton</span>
+              <h5 class="mt-3">
+                <strong>I Asked ChatGPT to Create Comics, Then I Drew Them.</strong>
+              </h5>
+              <p>
+                By now you’ve likely heard of ChatGPT, the open AI chatbot that...
+              </p>
+              <ul class="list-inline small">
+                <li class="list-inline-item">Jan 8 ·</li>
+                <li class="list-inline-item"> 4 min read</li>
+                <li class="list-inline-item badge bg-body-secondary text-wrap text-secondary">Funny</li>
+                <li class="list-inline-item">
+                  <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                  <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                  </path>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <img src="https://picsum.photos/id/88/400/250" alt="" class="w-100">
+            </div>
+          </article>
+          <article class="row mb-3">
+            <div class="col-8">
+              <img  class="rounded-circle" src="https://picsum.photos/id/47/25/25" alt="">
+              <span class="small ms-2">Mark Schaefer</span>
+              <h5 class="mt-3">
+                <strong>20 Entertaining Uses of ChatGPT You Never Knew Were Possible</strong>
+              </h5>
+              <p>
+                Our RISE community has been on fire, exploring the breathtaking possibilities of ChatGPT.
+              </p>
+              <ul class="list-inline small">
+                <li class="list-inline-item">Jan 11 ·</li>
+                <li class="list-inline-item"> 7 min read</li>
+                <li class="list-inline-item badge bg-body-secondary text-wrap text-secondary">Chatgpt</li>
+                <li class="list-inline-item">
+                  <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                  <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                  </path>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <img src="https://picsum.photos/id/33/400/250" alt="" class="w-100">
+            </div>
+          </article>
+        </seciton>
+        <aside class="col-sm-4">
+          <h6>
+            <strong>Discover more of what matters to you</strong>
+          </h6>
+          <ul class="list-inline b-bottom">
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm btn-outline-secondary mb-2">Programming</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm btn-outline-secondary mb-2">Data Science</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm btn-outline-secondary mb-2">Technology</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm btn-outline-secondary mb-2">Self Improvement</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm btn-outline-secondary mb-2">Writing</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm btn-outline-secondary mb-2">Relationships</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm btn-outline-secondary mb-2">Machine Learning</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm btn-outline-secondary mb-2">Politics</a>
+            </li>
+          </ul>
+          <ul class="list-inline text-body-secondary">
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm mb-2">Help</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm mb-2">Status</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm mb-2">Writers</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm mb-2">Blog</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm mb-2">Careers</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm mb-2">Privacy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm mb-2">Terms</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn btn-sm mb-2">About</a>
+            </li>
+
+        </aside>
+      </div>
+    </div>     
+  <!-- SECTION - END -->
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

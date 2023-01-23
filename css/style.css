@@ -1,0 +1,12 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.b-bottom {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.bg-nav {
+    background-color: #ffc017;
+    border-bottom: 1px solid #000;
+}
